@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="view_separator_size">6dp</dimen>
+    <dimen name="view_separator_elevation">1dp</dimen>
+    <dimen name="view_separator_elevation_edit_profile">1dp</dimen>
+    <dimen name="view_separator_elevation_edit_setting">1dp</dimen>
+    <dimen name="text_icon_gap">8dp</dimen>
+
+    <dimen name="text_icon_gap_setting">16dp</dimen>
+    <dimen name="view_padding_setting">16dp</dimen>
+    <dimen name="view_padding_edit_profile">16dp</dimen>
+
+    <dimen name="line_spacing_extra">6sp</dimen>
+    <dimen name="line_spacing_extra_title">4sp</dimen>
+    <dimen name="button_letter_spacing_very_little">-0.01</dimen>
+    <dimen name="button_letter_spacing_little">0.01</dimen>
+    <dimen name="button_letter_spacing">0.04</dimen>
+    <dimen name="text_medium_letter_spacing">0.01</dimen>
+    <dimen name="text_title_letter_spacing">0.02</dimen>
+    <dimen name="text_title_letter_extra_spacing">0.12</dimen>
+    <dimen name="text_title_letter_extra_extra_spacing">0.21</dimen>
+
+    <dimen name="button_height_main_list">36dp</dimen>
+    <dimen name="button_width_main_list">84dp</dimen>
+    <dimen name="button_height_inner_list">32dp</dimen>
+    <dimen name="button_width_inner_list">72dp</dimen>
+
+    <dimen name="bottom_navigation_elevation">10dp</dimen>
+    <dimen name="bottom_tab_bar_height">56dp</dimen>
+    <dimen name="tool_bar_height">56dp</dimen>
+    <dimen name="tab_layout_height_find_class">56dp</dimen>
+    <dimen name="tab_layout_height_trainers">48dp</dimen>
+    <dimen name="button_height_normal">40dp</dimen>
+    <dimen name="button_margin">24dp</dimen>
+    <dimen name="text_title">15sp</dimen>
+    <dimen name="text_list_header">16sp</dimen>
+    <dimen name="button_join">14sp</dimen>
+    <dimen name="button_text_medium">16sp</dimen>
+    <dimen name="button_text_small">14sp</dimen>
+    <dimen name="button_text_very_small">10sp</dimen>
+
+    <dimen name="text_extra_large">18sp</dimen>
+    <dimen name="text_extra_extra_large">22sp</dimen>
+    <dimen name="text_large">16sp</dimen>
+    <dimen name="text_15sp">15sp</dimen>
+    <dimen name="text_medium">14sp</dimen>
+    <dimen name="text_s_medium">13sp</dimen>
+    <dimen name="text_small">12sp</dimen>
+    <dimen name="text_extra_small">10sp</dimen>
+    <dimen name="indicator_list_header_tab">2dp</dimen>
+    <dimen name="bottom_text_button_height">48dp</dimen>
+    <dimen name="registration_title">28sp</dimen>
+    <dimen name="action_bar_elevation">2dp</dimen>
+    <dimen name="text_drawable_adjustment">2dp</dimen>
+
+    <dimen name="margin_100">100dp</dimen>
+    <dimen name="margin_118">118dp</dimen>
+    <dimen name="margin_20">20dp</dimen>
+    <dimen name="margin_35">35dp</dimen>
+    <dimen name="margin_130">130dp</dimen>
+    <dimen name="margin_1">1dp</dimen>
+    <dimen name="margin_2">2dp</dimen>
+    <dimen name="margin_3">3dp</dimen>
+    <dimen name="margin_4">4dp</dimen>
+    <dimen name="margin_5">5dp</dimen>
+
+    <dimen name="margin_6">6dp</dimen>
+    <dimen name="margin_14">14dp</dimen>
+    <dimen name="margin_48">48dp</dimen>
+
+    <dimen name="margin_17">17dp</dimen>
+    <dimen name="margin_86">86dp</dimen>
+    <dimen name="margin_150">150dp</dimen>
+    <dimen name="margin_12">12dp</dimen>
+    <dimen name="margin_10">10dp</dimen>
+    <dimen name="margin_16">16dp</dimen>
+    <dimen name="margin_22">22dp</dimen>
+    <dimen name="margin_110">110dp</dimen>
+    <dimen name="margin_140">140dp</dimen>
+    <dimen name="margin_80">80dp</dimen>
+    <dimen name="margin_15">15dp</dimen>
+    <dimen name="margin_30">30dp</dimen>
+    <dimen name="margin_40">40dp</dimen>
+    <dimen name="margin_50">50dp</dimen>
+    <dimen name="margin_60">60dp</dimen>
+    <dimen name="margin_70">70dp</dimen>
+
+    <!--PIX LIBRARY-->
+    <dimen name="margin_top">0dp</dimen>
+    <dimen name="margin_top_nve">0dp</dimen>
+    <dimen name="h1">36dp</dimen>
+    <dimen name="h2">30dp</dimen>
+    <dimen name="h3">24dp</dimen>
+    <dimen name="h4">18dp</dimen>
+    <dimen name="h5">16dp</dimen>
+    <dimen name="h6">14dp</dimen>
+    <dimen name="h7">13dp</dimen>
+    <dimen name="h8">12dp</dimen>
+    <dimen name="h9">7dp</dimen>
+    <dimen name="h0">40dp</dimen>
+    <dimen name="curves">3dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="top_bar">45dp</dimen>
+    <dimen name="tab_bar">45dp</dimen>
+    <dimen name="vehicle_specs_width">100dp</dimen>
+    <dimen name="rounded_edges_dialog">6dp</dimen>
+    <dimen name="fastscroll_bubble_radius">16dp</dimen>
+    <dimen name="fastscroll_scrollbar_padding_end">12dp</dimen>
+    <dimen name="fastscroll_bubble_size">56dp</dimen>
+    <dimen name="margin_200">200dp</dimen>
+    <dimen name="margin_38">38dp</dimen>
+    <dimen name="icon_size">19dp</dimen>
+    <dimen name="margin_7">7dp</dimen>
+    <dimen name="margin_45">45dp</dimen>
+    <dimen name="margin_160">160dp</dimen>
+    <dimen name="margin_8">8dp</dimen>
+    <dimen name="margin_9">9dp</dimen>
+
+
+    <dimen name="dp_8">8dp</dimen>
+    <dimen name="dp_16">16dp</dimen>
+    <dimen name="dp_24">24dp</dimen>
+    <dimen name="dp_32">32dp</dimen>
+    <dimen name="dp_40">40dp</dimen>
+    <dimen name="dp_48">48dp</dimen>
+    <dimen name="dp_56">56dp</dimen>
+    <dimen name="dp_64">64dp</dimen>
+    <dimen name="dp_72">72dp</dimen>
+    <dimen name="dp_80">80dp</dimen>
+    <dimen name="dp_160">160dp</dimen>
+
+    <dimen name="membership_img_width" >164dp</dimen>
+
+    <dimen name="membership_img_height">158dp</dimen>
+    <dimen name="membership_icon">60dp</dimen>
+    <dimen name="button_width">150dp</dimen>
+    <dimen name="margin_13">13dp</dimen>
+    <dimen name="margin_90">90dp</dimen>
+    <dimen name="rv_def_column_width">100dp</dimen>
+    <dimen name="column_width">150dp</dimen>
+
+    <dimen name="grid_spacing_vertical">4dp</dimen>
+    <dimen name="grid_spacing_horizontal">4dp</dimen>
+
+
+    <dimen name="fb_popup_window_width">240dp</dimen>
+    <dimen name="fb_popup_window_height">224dp</dimen>
+
+    <dimen name="text_size_small">12sp</dimen>
+    <dimen name="text_size_medium">14sp</dimen>
+    <dimen name="text_size_normal">16sp</dimen>
+    <dimen name="text_size_large">18sp</dimen>
+
+    <!-- Main Activity -->
+    <dimen name="setting_btn_margin_top">12dp</dimen>
+    <dimen name="setting_btn_margin_right">18dp</dimen>
+    <dimen name="setting_btn_size">36dp</dimen>
+    <dimen name="logo_size">158dp</dimen>
+    <dimen name="logo_margin_bottom">48dp</dimen>
+    <dimen name="edit_margin_bottom">42dp</dimen>
+    <dimen name="edit_text_padding">16dp</dimen>
+    <dimen name="start_broadcast_height">48dp</dimen>
+    <dimen name="start_broadcast_radius">25dp</dimen>
+    <dimen name="start_broadcast_padding">45dp</dimen>
+    <dimen name="info_margin_bottom">48dp</dimen>
+
+    <!-- Setting Activity -->
+    <dimen name="setting_title_layout_height">56dp</dimen>
+    <dimen name="setting_title_content_margin">12dp</dimen>
+    <dimen name="back_arrow_size">27dp</dimen>
+    <dimen name="back_arrow_left">18dp</dimen>
+    <dimen name="setting_content_margin">28dp</dimen>
+    <dimen name="setting_content_margin_vertical">14dp</dimen>
+    <dimen name="setting_resolution_item_height">48dp</dimen>
+    <dimen name="setting_resolution_item_radius">24dp</dimen>
+    <dimen name="setting_resolution_item_border">2px</dimen>
+    <dimen name="setting_resolution_item_padding">6dp</dimen>
+    <dimen name="setting_divider_height">3px</dimen>
+    <dimen name="setting_item_height_normal">54dp</dimen>
+    <dimen name="setting_switch_width">56dp</dimen>
+    <dimen name="setting_switch_height">32dp</dimen>
+    <dimen name="setting_switch_radius">16dp</dimen>
+    <dimen name="setting_switch_thumb_size">28dp</dimen>
+    <dimen name="setting_switch_track_padding">2dp</dimen>
+
+    <!-- Live Activity -->
+    <dimen name="live_top_layout_height">76dp</dimen>
+    <dimen name="live_leave_btn_size">36dp</dimen>
+    <dimen name="live_leave_btn_icon_size">15dp</dimen>
+    <dimen name="live_top_layout_margin">22dp</dimen>
+    <dimen name="live_name_board_width">210dp</dimen>
+    <dimen name="live_name_board_height">48dp</dimen>
+    <dimen name="live_name_board_icon_size">44dp</dimen>
+    <dimen name="live_name_board_icon_margin">2dp</dimen>
+    <dimen name="live_name_board_fav_icon_margin">6dp</dimen>
+    <dimen name="live_name_board_fav_icon_size">36dp</dimen>
+    <dimen name="live_name_board_radius">36dp</dimen>
+    <dimen name="live_name_text_height">24dp</dimen>
+    <dimen name="live_name_text_margin_left">8dp</dimen>
+    <dimen name="live_bottom_btn_size">44dp</dimen>
+    <dimen name="live_bottom_layout_margin">18dp</dimen>
+    <dimen name="live_bottom_btn_margin">12dp</dimen>
+    <dimen name="live_stat_margin_bottom">68dp</dimen>
+    <dimen name="live_room_bg_icon_size">180dp</dimen>
+
+    <!-- Role Select Activity -->
+    <dimen name="role_block_width">342dp</dimen>
+    <dimen name="role_block_height">128dp</dimen>
+    <dimen name="role_block_corner">14dp</dimen>
+    <dimen name="role_block_margin_top">28dp</dimen>
+    <dimen name="role_block_icon_width">137dp</dimen>
+    <dimen name="role_block_content_width">120dp</dimen>
+    <dimen name="role_block_content_margin_right">32dp</dimen>
+    <dimen name="role_block_hint_margin_top">6dp</dimen>
+    <dimen name="text20size">20sp</dimen>
+    <dimen name="activity_margin_default">16dp</dimen>
+    <dimen name="text18size">18sp</dimen>
+    <dimen name="text10size">10sp</dimen>
+    <dimen name="text16size">16sp</dimen>
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="text12size">12sp</dimen>
+
+</resources>

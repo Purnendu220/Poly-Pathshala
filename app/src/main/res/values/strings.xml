@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Poly Pathshala</string>
+    <!-- Strings related to login -->
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="next">Next</string>
+    <string name="sign_up_email">Signup</string>
+    <string name="already_account">Already have account?</string>
+    <string name="login">Login</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="create_your_password">Password</string>
+    <string name="confirm_your_password">Confirm Password</string>
+    <string name="mobile_no">Mobile No</string>
+    <string name="email_sign_up">Email</string>
+    <string name="user_normal">User</string>
+    <string name="user_admin">Admin</string>
+    <string name="user_type_required">User Type Required</string>
+    <string name="select_semester">Select semester</string>
+    <string name="select_trade">Select Trade</string>
+    <string name="rationale_doc_picker">We need this permission to read documents from device.</string>
+    <string name="enter_subject_name">Enter Subject Name</string>
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="or">or</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="login_back">Login</string>
+    <string name="please_wait_no_dots">Please wait ...</string>
+    <string name="donot_signup">Don\'t have an account?</string>
+    <string name="sign_up"><b><u>Sign Up</u></b></string>
+    <string name="reset_password">Reset Password</string>
+    <string name="link_sent">Link will be sent to above email address.</string>
+
+</resources>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">#031d22</color>
+    <color name="colorPrimaryDark">#031d22</color>
+    <color name="colorAccent">#3d85ea</color>
+
+    <color name="colorAccentHighlight">#CC3d85ea</color>
+    <color name="specialClassBg">#99000000</color>
+    <color name="imageGalleryBg">#99000000</color>
+
+    <color name="theme_bg_splash">#031D22</color>
+    <color name="theme_bg">#f1f0ee</color>
+    <color name="separator">#f1f0ee</color>
+    <color name="login_active">#FFFFFF</color>
+    <color name="login_active_highlighted">#EEEEEE</color>
+    <color name="black">#000000</color>
+    <color name="grey">#999999</color>
+    <color name="grey_bg">#f1f0f6</color>
+    <color name="dark_grey">#9aa4a6</color>
+    <color name="white">#FFFFFF</color>
+    <color name="highlight">#1A000000</color>
+    <color name="text_shadow">#7F000000</color>
+    <color name="facebook_button">#485b92</color>
+    <color name="theme_medium_text">#979797</color>
+    <color name="theme_medium_light_text">#a7abb4</color>
+    <color name="theme_medium_dark_text">#AA031d22</color>
+    <color name="theme_light_text">#c7cfd4</color>
+    <color name="theme_dark_text">#031d22</color>
+    <color name="theme_dark_light_text">#262626</color>
+    <color name="theme_error_text">#d50000</color>
+    <color name="theme_accent_text">#3d85ea</color>
+    <color name="theme_search">#fafafa</color>
+    <color name="text_grey">#595F6F</color>
+
+    <color name="float_transparent">#00000000</color>
+
+    <color name="theme_full">#FF0000</color>
+    <color name="theme_full_highlight">#CCFF0000</color>
+    <color name="theme_booked">#FF8C00</color>
+    <color name="theme_booked_highlight">#CCFF8C00</color>
+    <color name="theme_book">#3d85ea</color>
+    <color name="theme_book_opacity">#5DAAE4</color>
+    <color name="theme_select_disable">#f5f9fc</color>
+    <color name="layer">#80000000</color>
+    <color name="red">#f22229</color>
+    <color name="red1">#D0021B</color>
+    <color name="green">#1FB257</color>
+    <color name="rating_blank">#9aa4a6</color>
+    <color name="rating_filled">#f5a623</color>
+    <color name="grey_line">#dadee1</color>
+    <color name="colorPrimaryPix">#031d22</color>
+    <color name="colorPrimaryLightPix">#031d22</color>
+    <color name="text_color_light">#858d9e</color>
+    <color name="grey_line_dark">#c3c5cd</color>
+    <color name="text_shadow_color">#66000000</color>
+
+    <color name="blue">#007AFF</color>
+
+    <color name="wewak">#FCD3D4</color>
+
+    <color name="light_green">#DFF5D9</color>
+
+    <color name="black_transparent">#80000000</color>
+
+    <color name="blue_light">#42A1ED</color>
+
+
+
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="highlight">#1A000000</drawable>
+    <drawable name="layer">#80000000</drawable>
+
+    <drawable name="no_map">#c7cfd4</drawable>
+    <drawable name="grey_drawable">#999999</drawable>
+    <color name="TransparentGrey">#7F000000</color>
+    <color name="text_dark_gray">#4C5053</color>
+    <color name="gray_class">#595F6F</color>
+
+
+    <color name="gray_lightest">#DEDEDE</color>
+    <color name="gray_light">#CCCCCC</color>
+    <color name="gray">#989898</color>
+    <color name="gray_dark">#666666</color>
+    <color name="gray_deep_dark">#333333</color>
+
+    <color name="blue_medium">#44A2FC</color>
+    <color name="blue_alpha">#9CD9FF</color>
+
+    <color name="dark_black">#CC262626</color>
+    <color name="black_half_transparent">#66000000</color>
+    <color name="black_full_transparent">#22000000</color>
+    <color name="payment_pending">#ebf2fc</color>
+    <color name="warning_color">#FFCC00</color>
+    <color name="hintColor">#808080</color>
+    <color name="mtrl_textinput_default_box_stroke_color" tools:override="true">#aaaaaa</color>
+
+    <color name="purple">#9933CC</color>
+    <color name="orange">#FF8800</color>
+    <color name="mps_mid_grey">#ff787878</color>
+    <color name="mps_red">#ffff0000</color>
+    <color name="mps_dark_red">#ff9c3a2f</color>
+
+    <color name="mps_grey_2">#ffababab</color>
+    <color name="mps_grey_remember_login">#ff7d7d7d</color>
+    <color name="order_summary_dark_grey">#ff4d4d4d</color>
+    <color name="item_bg_grey">#eeeeee</color>
+    <color name="item_bg_red">#eee0df</color>
+    <color name="item_bg_dark_grey">#4d4d4d</color>
+    <color name="item_bg_med_grey">#ababab</color>
+    <color name="box_background">#bdc5ca</color>
+    <color name="text_color_dark">#262626</color>
+    <color name="rectangle_background">#949dab</color>
+    <color name="ic_tint">#0f1a3d</color>
+
+
+</resources>

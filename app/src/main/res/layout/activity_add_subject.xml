@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.AddSubject">
+
+    <Spinner
+        android:id="@+id/spinnerSemester"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_margin="@dimen/margin_10"
+        android:background="@drawable/button_white"
+        android:padding="@dimen/margin_5"
+
+
+        />
+
+    <Spinner
+        android:id="@+id/spinnerTrade"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:spinnerMode="dropdown"
+        android:layout_margin="@dimen/margin_10"
+        android:layout_below="@id/spinnerSemester"
+        android:background="@drawable/button_white"
+        android:padding="@dimen/margin_5"
+
+
+        />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutSubjectName"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/spinnerTrade"
+    android:gravity="left"
+    app:errorEnabled="true"
+        android:layout_margin="@dimen/margin_10"
+
+        >
+
+    <EditText
+        android:background="@color/white"
+        android:id="@+id/editTextSubjectName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif"
+        android:gravity="left"
+        android:hint="@string/enter_subject_name"
+        android:inputType="text"
+        android:maxLines="1"
+        android:textSize="@dimen/text_large" />
+
+</com.google.android.material.textfield.TextInputLayout>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/picFileEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Add File English"
+        android:layout_below="@id/textInputLayoutSubjectName"
+        android:background="@drawable/button_white"
+        android:layout_margin="@dimen/margin_10"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:id="@+id/fileEnglish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picFileEnglish"
+        android:layout_margin="@dimen/margin_10"
+        ></TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/picFileHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Add File Hindi"
+        android:layout_below="@id/fileEnglish"
+        android:background="@drawable/button_white"
+        android:layout_margin="@dimen/margin_10"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+    <TextView
+        android:id="@+id/fileHindi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/picFileHindi"
+        android:layout_margin="@dimen/margin_10"
+        ></TextView>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/addSubject"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:text="Add Subject"
+        android:layout_below="@id/fileHindi"
+        android:layout_margin="@dimen/margin_10"
+        android:background="@drawable/button_blue"
+        android:textColor="@color/white"
+
+        >
+
+    </androidx.appcompat.widget.AppCompatButton>
+
+
+</RelativeLayout>
