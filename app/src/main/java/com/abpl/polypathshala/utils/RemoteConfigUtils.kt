@@ -8,6 +8,8 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfigSettings
 object RemoteConfigUtils {
     const val SEMESTER = "semesters"
     const val TRADES = "trades"
+    const val ABOUT_US = "about_us"
+
 
     var mFirebaseRemoteConfig: FirebaseRemoteConfig? = null
     var configSettings: FirebaseRemoteConfigSettings? = null

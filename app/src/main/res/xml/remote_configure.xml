@@ -6,7 +6,11 @@
         <value>[{"dispalyName":"Select Semester ","id":""},{"dispalyName":"Semester 1","id":"SEM1"},{"dispalyName":"Semester 2","id":"SEM2"},{"dispalyName":"Semester 3","id":"SEM3"},{"dispalyName":"Semester 4","id":"SEM4"},{"dispalyName":"Semester 5","id":"SEM5"},{"dispalyName":"Semester 6","id":"SEM6"},{"dispalyName":"Semester 7","id":"SEM7"},{"dispalyName":"Semester 8","id":"SEM8"}]
         </value>
     </entry>
-
+    <entry>
+        <key>about_us</key>
+        <value>
+        </value>
+    </entry>
     <entry>
         <key>trades</key>
         <value>    [

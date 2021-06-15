@@ -1,22 +1,17 @@
 package com.abpl.polypathshala.activities
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
 import com.abpl.polypathshala.R
-import com.abpl.polypathshala.models.SubjectModel
 import com.abpl.polypathshala.models.User
 import com.abpl.polypathshala.services.ApiConstants
 import com.abpl.polypathshala.services.SignupService
-import com.abpl.polypathshala.services.SubjectService
 import com.abpl.polypathshala.storage.StorePrefrence
 import com.abpl.polypathshala.utils.CommonUtils
-import com.google.firebase.firestore.DocumentSnapshot
 import kotlinx.android.synthetic.main.activity_login2.*
 import kotlinx.android.synthetic.main.activity_login2.editTextEmail
 import kotlinx.android.synthetic.main.activity_login2.textInputLayoutEmail
-import kotlinx.android.synthetic.main.activity_sign_up.*
 
 class LoginActivity : BaseActivity(), View.OnClickListener {
     var mSignupService: SignupService? = null
@@ -28,6 +23,7 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
 
         textViewSignUp.setOnClickListener(this)
         textViewForgetPassword.setOnClickListener(this)
+        buttonLogin.setOnClickListener(this)
     }
 
     override fun onClick(v: View?) {
@@ -60,7 +56,7 @@ class LoginActivity : BaseActivity(), View.OnClickListener {
         }
 
         var email=this.editTextEmail.text.toString();
-        var password=this.editTextPass.text.toString();
+        var password=this.editTextPassword.text.toString();
 showLoading()
         mSignupService!!.getauthRefrence().signInWithEmailAndPassword(email, password).addOnCompleteListener { task ->
             if (task.isSuccessful) {

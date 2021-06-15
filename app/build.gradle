@@ -59,6 +59,8 @@ dependencies {
     implementation 'com.droidninja:filepicker:2.2.5'
     implementation 'com.github.f0ris.sweetalert:library:1.5.1'
     implementation 'io.github.informramiz:nameinitialscircleimageview:1.6'
+    implementation 'com.mindorks.android:prdownloader:0.6.0'
+
 
 
     testImplementation 'junit:junit:4.+'

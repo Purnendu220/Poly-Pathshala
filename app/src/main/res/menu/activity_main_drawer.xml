@@ -4,6 +4,9 @@
         <item android:id="@+id/nav_item_one"
             android:icon="@drawable/active_distributer"
             android:title="View Subjects" />
+        <item android:id="@+id/nav_item_two"
+            android:icon="@drawable/active_distributer"
+            android:title="About Us" />
         <item android:id="@+id/nav_item_four"
             android:icon="@drawable/active_distributer"
             android:title="Logout" />

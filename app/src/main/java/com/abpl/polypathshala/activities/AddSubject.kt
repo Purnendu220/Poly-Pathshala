@@ -1,5 +1,6 @@
 package com.abpl.polypathshala.activities
 
+import android.Manifest
 import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
@@ -43,6 +44,7 @@ class AddSubject : BaseActivity(), View.OnClickListener, AdapterView.OnItemSelec
     lateinit var filesHinUploadUrl: String
 
 
+     val PERMISSIONS_WRITE = Manifest.permission.WRITE_EXTERNAL_STORAGE
 
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -173,23 +175,23 @@ class AddSubject : BaseActivity(), View.OnClickListener, AdapterView.OnItemSelec
 
     @AfterPermissionGranted(RC_PHOTO_PICKER_PERM_ENG)
     private fun pickEngClicked() {
-        if (EasyPermissions.hasPermissions(this, PERMISSIONS_FILE_PICKER)) {
+        if (EasyPermissions.hasPermissions(this, PERMISSIONS_FILE_PICKER,PERMISSIONS_WRITE)) {
             onPickEnglish()
         } else {
             // Ask for one permission
             EasyPermissions.requestPermissions(this, getString(R.string.rationale_doc_picker),
-                    RC_PHOTO_PICKER_PERM_ENG, PERMISSIONS_FILE_PICKER)
+                    RC_PHOTO_PICKER_PERM_ENG, PERMISSIONS_FILE_PICKER,PERMISSIONS_WRITE)
         }
     }
 
     @AfterPermissionGranted(RC_PHOTO_PICKER_PERM_HIN)
     private fun pickHinClicked() {
-        if (EasyPermissions.hasPermissions(this, PERMISSIONS_FILE_PICKER)) {
+        if (EasyPermissions.hasPermissions(this, PERMISSIONS_FILE_PICKER,PERMISSIONS_WRITE)) {
             onPickHindi()
         } else {
             // Ask for one permission
             EasyPermissions.requestPermissions(this, getString(R.string.rationale_doc_picker),
-                    RC_PHOTO_PICKER_PERM_HIN, PERMISSIONS_FILE_PICKER)
+                    RC_PHOTO_PICKER_PERM_HIN, PERMISSIONS_FILE_PICKER,PERMISSIONS_WRITE)
         }
     }
 

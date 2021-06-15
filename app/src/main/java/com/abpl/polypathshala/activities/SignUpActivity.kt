@@ -27,7 +27,7 @@ import kotlin.collections.ArrayList
 
 class SignUpActivity : BaseActivity(), View.OnClickListener, AdapterView.OnItemSelectedListener {
     var mSignupService: SignupService? = null
-   lateinit var userType: String ;
+    var userType: String? = ApiConstants.Refrences.USER_NORMAL;
     private var trade = ArrayList(Arrays.asList("DCE", "DM", "DECE", "DCE", "DEE"))
     var semester = ArrayList(Arrays.asList("Semester 1", "Semester 2", "Semester 3", "Semester 4", "Semester 5", "Semester 6", "Semester 7", "Semester 8"))
     var selectedSemester: String? = null
@@ -61,7 +61,7 @@ class SignUpActivity : BaseActivity(), View.OnClickListener, AdapterView.OnItemS
         val semString = RemoteConfigUtils.getRemoteConfigValue(RemoteConfigUtils.SEMESTER);
         val tradeString = RemoteConfigUtils.getRemoteConfigValue(RemoteConfigUtils.TRADES);
         val g = Gson()
-       tradelist = g.fromJson(tradeString, object : TypeToken<ConfigModel?>() {}.type)
+        tradelist = g.fromJson(tradeString, object : TypeToken<ConfigModel?>() {}.type)
         semesterList = g.fromJson(semString, object : TypeToken<ConfigModel?>() {}.type)
         setSpinnerViewSemester()
         setSpinnerViewTrade()

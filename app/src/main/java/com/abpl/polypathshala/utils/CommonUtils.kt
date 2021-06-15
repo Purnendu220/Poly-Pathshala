@@ -1,7 +1,14 @@
 package com.abpl.polypathshala.utils
 
+import android.content.Context
+import android.os.Environment
+import androidx.core.content.ContextCompat
 import com.abpl.polypathshala.models.SubjectModel
 import com.abpl.polypathshala.models.User
+import java.io.File
+import java.net.MalformedURLException
+import java.net.URL
+import java.util.*
 
 
 object CommonUtils {
@@ -53,13 +60,69 @@ object CommonUtils {
         // print the characters after spaces.
         for (i in 1 until name.length - 1) {
             if (name[i] == ' ') {
-                initials += Character.toUpperCase(name[i + 1]
+                initials += Character.toUpperCase(
+                    name[i + 1]
                 )
 
             }
         }
    return initials
     }
+    fun getRootDirPath(context: Context): String? {
+        return if (Environment.MEDIA_MOUNTED.equals(Environment.getExternalStorageState())) {
+            val file: File = ContextCompat.getExternalFilesDirs(
+                context.getApplicationContext(),
+                null
+            )[0]
+            file.getAbsolutePath()
+        } else {
+            context.getApplicationContext().getFilesDir().getAbsolutePath()
+        }
+    }
+
+    fun getProgressDisplayLine(currentBytes: Long, totalBytes: Long): String? {
+        return getBytesToMBString(currentBytes) + "/" + getBytesToMBString(totalBytes)
+    }
+
+    private fun getBytesToMBString(bytes: Long): String {
+        return java.lang.String.format(Locale.ENGLISH, "%.2fMb", bytes / (1024.00 * 1024.00))
+    }
+
+    fun getFileNameFromURL(url: String?): String? {
+        if (url == null) {
+            return ""
+        }
+        try {
+            val resource = URL(url)
+            val host: String = resource.getHost()
+            if (host.length > 0 && url.endsWith(host)) {
+                // handle ...example.com
+                return ""
+            }
+        } catch (e: MalformedURLException) {
+            return ""
+        }
+        val startIndex = url.lastIndexOf('/') + 1
+        val length = url.length
+
+        // find end index for ?
+        var lastQMPos = url.lastIndexOf('?')
+        if (lastQMPos == -1) {
+            lastQMPos = length
+        }
+
+        // find end index for #
+        var lastHashPos = url.lastIndexOf('#')
+        if (lastHashPos == -1) {
+            lastHashPos = length
+        }
+
+        // calculate the end index
+        val endIndex = Math.min(lastQMPos, lastHashPos)
+        return url.substring(startIndex, endIndex)
+    }
+
+
 
 }
 

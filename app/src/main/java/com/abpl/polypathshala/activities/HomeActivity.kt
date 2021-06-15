@@ -99,6 +99,10 @@ class HomeActivity : BaseActivity(), View.OnClickListener, NavigationView.OnNavi
                 SignupService.instance?.userAuthRefrence?.signOut()
                 startNewActivity(LoginActivity::class.java)
             }
+            R.id.nav_item_two->{
+                startNewActivity(AboutActivity::class.java)
+
+            }
         }
         drawer.closeDrawer(GravityCompat.START)
         return true

@@ -5,17 +5,19 @@
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@mipmap/ic_launcher_app"
         android:label="@string/app_name"
         android:requestLegacyExternalStorage="true"
         android:roundIcon="@mipmap/ic_launcher_app"
         android:supportsRtl="true"
         android:theme="@style/Theme.PolyPathshala"
         tools:replace="android:icon">
+        <activity android:name=".activities.AboutActivity"></activity>
         <activity android:name=".activities.SplashActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -23,6 +25,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.abpl.polypathshala.myprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
         <activity android:name=".activities.ForgotPasswordActivity" />
         <activity android:name=".activities.SubjectListActivity" />
         <activity android:name=".activities.UserListActivity" />
@@ -34,9 +47,7 @@
         <activity
             android:name=".activities.AdminActivity"
             android:theme="@style/Theme.PolyPathshala.NoActionBar" />
-        <activity android:name=".activities.SignUpActivity">
-
-        </activity>
+        <activity android:name=".activities.SignUpActivity"></activity>
     </application>
 
 </manifest>

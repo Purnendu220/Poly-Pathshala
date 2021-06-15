@@ -21,7 +21,7 @@
         >
         <TextView
             android:id="@+id/txtSubjectName"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="Subject Name"
@@ -30,7 +30,8 @@
             android:textSize="14sp"
             android:padding="10dp"
             android:layout_gravity="center_vertical"
-            android:layout_weight=".3"
+            android:layout_weight=".5"
+            android:ellipsize="marquee"
             />
         <View
             android:layout_width="1dp"
@@ -41,7 +42,7 @@
 
         <TextView
             android:id="@+id/txtHindiFile"
-            android:layout_width="wrap_content"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
             android:text="File Url Hindi"
@@ -50,7 +51,7 @@
             android:textSize="12sp"
             android:padding="10dp"
             android:layout_gravity="center_vertical"
-            android:layout_weight=".3"
+            android:layout_weight=".2"
 
             />
         <View
@@ -61,7 +62,7 @@
             />
         <TextView
         android:id="@+id/txtEngFile"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:text="File Url English"
@@ -70,7 +71,7 @@
         android:textSize="12sp"
         android:padding="10dp"
         android:layout_gravity="center_vertical"
-        android:layout_weight=".3"
+        android:layout_weight=".2"
 
         />
 
